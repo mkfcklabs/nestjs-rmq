@@ -30,6 +30,7 @@ export interface IRMQServiceOptions {
 }
 
 export interface IRMQConnection {
+	protocol: string;
 	login: string;
 	password: string;
 	host: string;
